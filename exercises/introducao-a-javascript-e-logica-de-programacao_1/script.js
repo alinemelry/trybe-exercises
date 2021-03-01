@@ -1,13 +1,10 @@
-let a = 15;
-let b = 8;
-let c = 5;
-
-if(a > b && a > c ){
-    console.log(" A variavel o maior é: ", + a );
+let num = -2;
+if( num > 0){
+    console.log("Positivo");
 }
-else if( b > a && b > c ){
-    console.log("o maior é: ", + b);
+else if(num < 0 ){
+    console.log("Negativo");
 }
 else{
-    console.log("o maior é: ", + c);
+    console.log("Zero");
 }
