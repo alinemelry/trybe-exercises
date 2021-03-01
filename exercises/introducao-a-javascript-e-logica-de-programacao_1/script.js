@@ -1,11 +1,13 @@
+let a = 15;
+let b = 8;
+let c = 5;
 
-let c = 35;
-let d= 25;
-
-if(c < d ){
-    console.log("numero maior");
-
+if(a > b && a > c ){
+    console.log(" A variavel o maior é: ", + a );
+}
+else if( b > a && b > c ){
+    console.log("o maior é: ", + b);
 }
 else{
-    console.log("mumero menor");
+    console.log("o maior é: ", + c);
 }
